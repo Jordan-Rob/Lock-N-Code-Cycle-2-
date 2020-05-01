@@ -60,3 +60,19 @@ function three(name = `Sonny`, place = `Arkansas`) {
 }
 
 console.log(three(`ken`, `Gulu`));
+
+//arrow functions
+
+const arrowThree = (name, place) => {
+  const sentence = `${name} lives in ${place}`;
+  return sentence;
+};
+
+console.log(arrowThree(`Alex`, `Pretoria`));
+
+const arrowTwo = (name = `James`, place = `Lira`) => {
+  const sentence = `${name} went to ${place} before lockdown`;
+  return sentence;
+};
+
+console.log(arrowTwo(`Jordan`, `Kira`));
