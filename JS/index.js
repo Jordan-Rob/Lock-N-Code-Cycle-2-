@@ -76,3 +76,35 @@ const arrowTwo = (name = `James`, place = `Lira`) => {
 };
 
 console.log(arrowTwo(`Jordan`, `Kira`));
+
+//conditionals
+
+const items = 45;
+const tax = `45`;
+
+if (items == tax) {
+  console.log(`equal`);
+} else {
+  console.log(`not equal`);
+}
+
+// and , or operators
+const age = 45;
+const worth = 34;
+if (age === 67 && worth == 34) {
+  console.log("it is correct");
+} else {
+  console.log("it is false");
+}
+
+if (age === 67 || worth == 34) {
+  console.log("it is correct");
+} else {
+  console.log("it is false");
+}
+
+if (age === 45 || worth == 34) {
+  console.log("it is correct");
+} else {
+  console.log("it is false");
+}
