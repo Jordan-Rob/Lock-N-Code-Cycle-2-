@@ -108,3 +108,34 @@ if (age === 45 || worth == 34) {
 } else {
   console.log("it is false");
 }
+
+//classes
+
+//const people = 30;
+//class MyClass extends people {
+//  constructor() {}
+//  myMethod() {
+//    const age = 56;
+//    const marriage = true;
+//    const vow = "I will be here";
+//  }
+//  anotherMethod() {
+//    if (this.marriage && this.age === 56) {
+//      return this.vow;
+//    } else if (people === 30) {
+//      console.log("people are nice");
+//    }
+//  }
+//}
+
+//loops
+//while loops
+
+var money = 0;
+
+while (money < 10) {
+  console.log(`is running`);
+  money++;
+}
+
+//for loops
