@@ -139,3 +139,7 @@ while (money < 10) {
 }
 
 //for loops
+
+for (w = 1; w < 12; w++) {
+  console.log(w);
+}
